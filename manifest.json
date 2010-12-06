@@ -1,0 +1,13 @@
+{
+	"name": "Tracking Token Stripper",
+	"version": "1.0",
+	"description": "Removes UTM tracking tokens from query strings.",
+	"icons" : {
+		"48" : "icon-48.png",
+		"128" : "icon-128.png"
+	},
+	"background_page": "background.html",
+	"permissions": [
+		"tabs"
+	]
+}
