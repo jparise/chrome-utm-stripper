@@ -1,7 +1,7 @@
 {
 	"name": "Tracking Token Stripper",
 	"version": "1.0",
-	"description": "Removes UTM tracking tokens from query strings.",
+	"description": "Removes Google Analytics (UTM) tracking tokens from URL query strings.",
 	"icons" : {
 		"48" : "icon-48.png",
 		"128" : "icon-128.png"
