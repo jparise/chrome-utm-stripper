@@ -3,11 +3,13 @@
 <head>
 	<script>
 		function tokenStripper(tabId, changeInfo, tab) {
-			if (tab.url.indexOf('utm_') > -1) {
+			if (tab.url.indexOf('utm_') > tab.url.indexOf('?')) {
 				var stripped = tab.url.replace(
 					/([\?\&]utm_(source|medium|campaign|content)=[^&#]+)/ig,
 					'');
-				chrome.tabs.update(tab.id, {url: stripped});
+				if (stripped != tab.url) {
+					chrome.tabs.update(tab.id, {url: stripped});
+				}
 			}
 		};
 
