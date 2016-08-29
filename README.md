@@ -1,4 +1,4 @@
-# Chome Tracking Token Stripper
+# Chrome Tracking Token Stripper
 
 This is a Google Chrome extension that strips Google Analytics (i.e. [Urchin
 Tracking Monitor][utm]) tokens from URL query strings. This is done *before*
