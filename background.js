@@ -1,15 +1,17 @@
-chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-    var queryStringIndex = tab.url.indexOf('?');
-    if (tab.url.indexOf('utm_') > queryStringIndex) {
-        var stripped = tab.url.replace(
-            /([\?\&]utm_(source|medium|term|campaign|content|cid|reader)=[^&#]+)/ig,
-            '');
+var utm_re = new RegExp('([\?\&]utm_(source|medium|term|campaign|content|cid|reader)=[^&#]+)', 'ig');
+
+chrome.webRequest.onBeforeRequest.addListener(function(details) {
+    var url = details.url;
+    var queryStringIndex = url.indexOf('?');
+    if (url.indexOf('utm_') > queryStringIndex) {
+        var stripped = url.replace(utm_re, '');
         if (stripped.charAt(queryStringIndex) === '&') {
             stripped = stripped.substr(0, queryStringIndex) + '?' +
                 stripped.substr(queryStringIndex + 1)
         }
-        if (stripped != tab.url) {
-            chrome.tabs.update(tab.id, {url: stripped});
+        if (stripped != url) {
+            return {redirectUrl: stripped};
         }
     }
-});
+},
+{urls: ['https://*/*?*', 'http://*/*?*'], types: ['main_frame']}, ['blocking']);

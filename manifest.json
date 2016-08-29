@@ -1,6 +1,6 @@
 {
 	"name": "Tracking Token Stripper",
-	"version": "1.6",
+	"version": "2.0",
 	"manifest_version": 2,
 	"description": "Removes Google Analytics (UTM) tracking tokens from URL query strings.",
     "homepage_url": "https://github.com/jparise/chrome-utm-stripper",
@@ -12,7 +12,9 @@
 		"scripts": ["background.js"]
 	},
 	"permissions": [
-		"tabs"
-	],
-    "offline_enabled": true
+        "webRequest",
+        "webRequestBlocking",
+        "https://*/*?*",
+        "http://*/*?*"
+	]
 }
