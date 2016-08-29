@@ -5,6 +5,8 @@ Tracking Monitor][utm]) tokens from URL query strings. This is done *before*
 the web request is made and result in both more private browsing as well as
 more aestethicly-pleasing URLs.
 
+Install from the [Chrome Web Store][store].
+
 The following [Google Analytics query string parameters][params] are stripped:
 
  - utm_source
@@ -27,6 +29,7 @@ This extension requires these [permissions][]:
 [Urchin Logo](http://www.openclipart.org/detail/69997) by Jordan Irwin / Deluge.
 
 [utm]: https://support.google.com/urchin/answer/28307?hl=en
+[store]: https://chrome.google.com/webstore/detail/kcpnkledgcbobhkgimpbmejgockkplob
 [params]: http://www.google.com/support/analytics/bin/answer.py?answer=55578
 [permissions]: https://developer.chrome.com/extensions/declare_permissions
 [webRequest]: https://developer.chrome.com/extensions/webRequest
