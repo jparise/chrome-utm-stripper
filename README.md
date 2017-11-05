@@ -16,6 +16,7 @@ The following [Google Analytics query string parameters][params] are stripped:
  - utm_content
  - utm_cid
  - utm_reader
+ - utm_name
 
 This extension requires these [permissions][]:
 
