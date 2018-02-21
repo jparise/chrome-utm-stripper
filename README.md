@@ -31,7 +31,7 @@ This extension requires these [permissions][]:
 
 [utm]: https://support.google.com/urchin/answer/28307?hl=en
 [store]: https://chrome.google.com/webstore/detail/kcpnkledgcbobhkgimpbmejgockkplob
-[addons]: https://addons.mozilla.org/firefox/addon/utm-tracking-token-stripper/
+[addons]: https://addons.mozilla.org/addon/utm-tracking-token-stripper/
 [params]: http://www.google.com/support/analytics/bin/answer.py?answer=55578
 [permissions]: https://developer.chrome.com/extensions/declare_permissions
 [webRequest]: https://developer.chrome.com/extensions/webRequest
