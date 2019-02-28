@@ -20,6 +20,7 @@ The following query string parameters are stripped:
  - utm_content
  - utm_cid
  - utm_reader
+ - utm_referrer
  - utm_name
 
 This extension requires these [permissions][]:
