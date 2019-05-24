@@ -9,7 +9,11 @@ var searchPattern = new RegExp('utm_|clid|mkt_tok', 'i');
  * Pattern matching the query string parameters (key=value) that will be
  * stripped from the final URL.
  */
-var replacePattern = new RegExp('([?&](mkt_tok|(g|fb)clid|utm_(source|medium|term|campaign|content|cid|reader|referrer|name))=[^&#]*)', 'ig');
+var replacePattern = new RegExp(
+    '([?&]' +
+    '(mkt_tok|(g|fb)clid|utm_(source|medium|term|campaign|content|cid|reader|referrer|name))' +
+    '=[^&#]*)',
+    'ig');
 
 chrome.webRequest.onBeforeRequest.addListener(function(details) {
     var url = details.url;
