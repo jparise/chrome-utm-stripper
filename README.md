@@ -12,6 +12,9 @@ The following query string parameters are stripped:
 
  - fbclid
  - gclid
+ - ICID
+ - mc_cid
+ - mc_eid
  - mkt_tok
  - utm_source
  - utm_medium
