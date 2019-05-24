@@ -1,12 +1,21 @@
-var re = new RegExp('([?&](mkt_tok|(g|fb)clid|utm_(source|medium|term|campaign|content|cid|reader|referrer|name))=[^&#]*)', 'ig');
+/*
+ * Pattern matching the prefix of at least one stripped query string
+ * parameter. We'll search the query string portion of the URL for this
+ * pattern to determine if there's any stripping work to do.
+ */
+var searchPattern = new RegExp('utm_|clid|mkt_tok', 'i');
+
+/*
+ * Pattern matching the query string parameters (key=value) that will be
+ * stripped from the final URL.
+ */
+var replacePattern = new RegExp('([?&](mkt_tok|(g|fb)clid|utm_(source|medium|term|campaign|content|cid|reader|referrer|name))=[^&#]*)', 'ig');
 
 chrome.webRequest.onBeforeRequest.addListener(function(details) {
     var url = details.url;
     var queryStringIndex = url.indexOf('?');
-    if (url.indexOf('utm_') > queryStringIndex ||
-      url.indexOf('clid') > queryStringIndex ||
-      url.indexOf('mkt_tok') > queryStringIndex) {
-        var stripped = url.replace(re, '');
+    if (url.search(searchPattern) > queryStringIndex) {
+        var stripped = url.replace(replacePattern, '');
         if (stripped.charAt(queryStringIndex) === '&') {
             stripped = stripped.substr(0, queryStringIndex) + '?' +
                 stripped.substr(queryStringIndex + 1)
