@@ -1,4 +1,4 @@
-var utm_re = new RegExp('([\?\&](mkt_tok|(g|fb)clid|utm_(source|medium|term|campaign|content|cid|reader|referrer|name))=[^&#]+)', 'ig');
+var utm_re = new RegExp('([\?\&](mkt_tok|(g|fb)clid|utm_(source|medium|term|campaign|content|cid|reader|referrer|name))=[^&#]*)', 'ig');
 
 chrome.webRequest.onBeforeRequest.addListener(function(details) {
     var url = details.url;
