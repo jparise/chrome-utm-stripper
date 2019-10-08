@@ -25,6 +25,8 @@ The following query string parameters are stripped:
  - utm_reader
  - utm_referrer
  - utm_name
+ - utm_social
+ - utm_social-type
 
 This extension requires these [permissions][]:
 
