@@ -11,7 +11,7 @@ var searchPattern = new RegExp('utm_|clid|icid|mc_|mkt_tok', 'i');
  */
 var replacePattern = new RegExp(
     '([?&]' +
-    '(icid|mkt_tok|(g|fb)clid|mc_[ce]id|utm_(source|medium|term|campaign|content|cid|reader|referrer|name))' +
+    '(icid|mkt_tok|(g|fb)clid|mc_[ce]id|utm_(source|medium|term|campaign|content|cid|reader|referrer|name|social|social-type))' +
     '=[^&#]*)',
     'ig');
 
