@@ -1,4 +1,4 @@
-module.exports = {
+{
     "env": {
         "webextensions": true
     },
@@ -263,4 +263,4 @@ module.exports = {
             "never"
         ]
     }
-};
+}
