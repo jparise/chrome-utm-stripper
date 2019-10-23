@@ -12,6 +12,8 @@ The following query string parameters are stripped:
 
  - fbclid
  - gclid
+ - _hsenc
+ - _hsmi
  - ICID
  - mc_cid
  - mc_eid
