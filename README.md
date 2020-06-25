@@ -10,6 +10,7 @@ Install from the [Chrome Web Store][store] or [Firefox Add-ons][addons].
 
 The following query string parameters are stripped:
 
+ - _openstat
  - fbclid
  - gclid
  - igshid
@@ -30,6 +31,7 @@ The following query string parameters are stripped:
  - utm_name
  - utm_social
  - utm_social-type
+ - yclid
 
 This extension requires these [permissions][]:
 
