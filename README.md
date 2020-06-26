@@ -1,10 +1,10 @@
 # Tracking Token Stripper
 
 This is a Chrome and Firefox browser extension that strips Google Analytics
-(i.e. [Urchin Tracking Monitor][utm]) tokens, and Google and Facebook click
-tracking identifiers, from URL query strings. This is done *before* the web
-request is made and results in both more private browsing as well as more
-aesthetically pleasing URLs.
+(i.e. [Urchin Tracking Monitor][utm]) parameters, and various other click
+tracking tokens, from URL query strings. This is done *before* the web request
+is made and results in both more private browsing as well as more aesthetically
+pleasing URLs.
 
 Install from the [Chrome Web Store][store] or [Firefox Add-ons][addons].
 
