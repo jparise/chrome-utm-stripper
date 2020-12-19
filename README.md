@@ -31,6 +31,7 @@ The following query string parameters are stripped:
  - utm_name
  - utm_social
  - utm_social-type
+ - wickedid
  - yclid
 
 This extension requires these [permissions][]:
