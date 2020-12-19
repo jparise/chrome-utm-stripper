@@ -8,6 +8,8 @@ pleasing URLs.
 
 Install from the [Chrome Web Store][store] or [Firefox Add-ons][addons].
 
+## Recognized Parameters
+
 The following query string parameters are stripped:
 
  - _openstat
@@ -34,12 +36,16 @@ The following query string parameters are stripped:
  - wickedid
  - yclid
 
+## Permissions
+
 This extension requires these [permissions][]:
 
  - `webRequest`, to use the [`chrome.webRequest` API][webRequest]
  - `webRequestBlocking`, to use `chrome.webRequest` in a blocking fashion
  - `http://*/*?*`, to filter http URLs
  - `https://*/*?*`, to filter https URLs
+
+## Logo
 
 [![Urchin Logo](icon-128.png "Urchin Logo")](http://www.openclipart.org/detail/69997)
 
