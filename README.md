@@ -12,29 +12,38 @@ Install from the [Chrome Web Store][store] or [Firefox Add-ons][addons].
 
 The following query string parameters are stripped:
 
- - _openstat
- - fbclid
- - gclid
- - igshid
- - _hsenc
- - _hsmi
- - ICID
- - mc_cid
- - mc_eid
- - mkt_tok
- - utm_source
- - utm_medium
- - utm_term
- - utm_campaign
- - utm_content
- - utm_cid
- - utm_reader
- - utm_referrer
- - utm_name
- - utm_social
- - utm_social-type
- - wickedid
- - yclid
+- Facebook
+  - `fbclid`
+- Google
+  - `gclid`
+  - `utm_source`
+  - `utm_medium`
+  - `utm_term`
+  - `utm_campaign`
+  - `utm_content`
+  - `utm_cid`
+  - `utm_reader`
+  - `utm_referrer`
+  - `utm_name`
+  - `utm_social`
+  - `utm_social`-type
+- [HubSpot](https://www.hubspot.com/)
+  - `_hsenc`
+  - `_hsmi`
+- Instagram
+  - `igshid`
+- Mailchimp
+  - `mc_cid`
+  - `mc_eid`
+- [Marketo](https://www.marketo.com/)
+  - `mkt_tok`
+- [Wicked Reports](https://www.wickedreports.com/)
+  - `wickedid`
+- [Yandex](https://yandex.com/support/direct/statistics/)
+  - `_openstat`
+  - `yclid`
+- Other
+  - `ICID`
 
 ## Permissions
 
