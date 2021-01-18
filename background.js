@@ -1,3 +1,5 @@
+/*eslint-env es6*/
+
 /*
  * Pattern matching the prefix of at least one stripped query string
  * parameter. We'll search the query string portion of the URL for this
@@ -28,4 +30,4 @@ chrome.webRequest.onBeforeRequest.addListener(details => {
         }
     }
 },
-{urls: ['https://*/*?*', 'http://*/*?*'], types: ['main_frame']}, ['blocking']);
+    {urls: ['https://*/*?*', 'http://*/*?*'], types: ['main_frame']}, ['blocking']);
