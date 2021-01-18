@@ -42,6 +42,10 @@ The following query string parameters are stripped:
 - [Yandex](https://yandex.com/support/direct/statistics/)
   - `_openstat`
   - `yclid`
+- [Olytics](https://main.omeda.com/knowledge-base/olytics-product-outline/)
+  - `oly_anon_id`
+  - `oly_enc_id`
+  - `otc`
 - Other
   - `ICID`
 
