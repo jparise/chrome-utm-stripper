@@ -37,15 +37,15 @@ The following query string parameters are stripped:
   - `mc_eid`
 - [Marketo](https://www.marketo.com/)
   - `mkt_tok`
+- [Olytics](https://main.omeda.com/knowledge-base/olytics-product-outline/)
+  - `oly_anon_id`
+  - `oly_enc_id`
+  - `otc`
 - [Wicked Reports](https://www.wickedreports.com/)
   - `wickedid`
 - [Yandex](https://yandex.com/support/direct/statistics/)
   - `_openstat`
   - `yclid`
-- [Olytics](https://main.omeda.com/knowledge-base/olytics-product-outline/)
-  - `oly_anon_id`
-  - `oly_enc_id`
-  - `otc`
 - Other
   - `ICID`
 
