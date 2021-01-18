@@ -1,4 +1,4 @@
-/*eslint-env es6*/
+/* eslint-env es6 */
 
 /*
  * Pattern matching the prefix of at least one stripped query string
@@ -17,7 +17,7 @@ const replacePattern = new RegExp(
     '=[^&#]*)',
     'ig');
 
-chrome.webRequest.onBeforeRequest.addListener(details => {
+chrome.webRequest.onBeforeRequest.addListener((details) => {
     const url = details.url;
     const queryStringIndex = url.indexOf('?');
     if (url.search(searchPattern) > queryStringIndex) {
@@ -30,4 +30,4 @@ chrome.webRequest.onBeforeRequest.addListener(details => {
         }
     }
 },
-    {urls: ['https://*/*?*', 'http://*/*?*'], types: ['main_frame']}, ['blocking']);
+{urls: ['https://*/*?*', 'http://*/*?*'], types: ['main_frame']}, ['blocking']);
