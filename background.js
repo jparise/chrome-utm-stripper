@@ -3,7 +3,7 @@
  * parameter. We'll search the query string portion of the URL for this
  * pattern to determine if there's any stripping work to do.
  */
-const searchPattern = new RegExp('utm_|clid|_hs|icid|igshid|mc_|mkt_tok|yclid|_openstat|wicked|otc|oly_', 'i');
+const searchPattern = new RegExp('utm_|clid|_hs|icid|igshid|linkid|mc_|mkt_tok|yclid|_openstat|wicked|otc|oly_|rb_clickid', 'i');
 
 /*
  * Pattern matching the query string parameters (key=value) that will be
@@ -11,7 +11,7 @@ const searchPattern = new RegExp('utm_|clid|_hs|icid|igshid|mc_|mkt_tok|yclid|_o
  */
 const replacePattern = new RegExp(
     '([?&]' +
-    '(icid|mkt_tok|(g|fb)clid|igshid|_hs(enc|mi)|mc_[ce]id|utm_(source|medium|term|campaign|content|cid|reader|referrer|name|social|social-type)|yclid|_openstat|wickedid|otc|oly_(anon|enc)_id)' +
+    '(icid|mkt_tok|(g|fb)clid|igshid|_hs(enc|mi)|linkid|mc_[ce]id|utm_(source|medium|term|campaign|content|cid|reader|referrer|name|social|social-type)|rb_clickid|yclid|_openstat|wickedid|otc|oly_(anon|enc)_id)' +
     '=[^&#]*)',
     'ig');
 
