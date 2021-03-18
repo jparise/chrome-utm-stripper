@@ -44,6 +44,9 @@ The following query string parameters are stripped:
   - `otc`
 - [Wicked Reports](https://www.wickedreports.com/)
   - `wickedid`
+- Yahoo
+  - `soc_src`
+  - `soc_trk`
 - [Yandex](https://yandex.com/support/direct/statistics/)
   - `_openstat`
   - `yclid`
