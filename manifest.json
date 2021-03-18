@@ -1,6 +1,6 @@
 {
 	"name": "Tracking Token Stripper",
-	"version": "2.7",
+	"version": "2.8",
 	"manifest_version": 2,
 	"author": "Jon Parise",
 	"description": "Removes Google Analytics (UTM) parameters, and various other click tracking tokens, from URL query strings.",
