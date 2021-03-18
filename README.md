@@ -53,6 +53,7 @@ The following query string parameters are stripped:
 - Other
   - `ICID`
   - `rb_clickid`
+  - `stm_` variants of the `utm_` parameters
 
 ## Permissions
 
