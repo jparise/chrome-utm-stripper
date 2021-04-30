@@ -16,7 +16,6 @@ The following query string parameters are stripped:
   - `fbclid`
 - Google
   - `gclid`
-  - `linkid`
   - `utm_source`
   - `utm_medium`
   - `utm_term`
