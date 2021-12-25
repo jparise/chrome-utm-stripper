@@ -6,7 +6,8 @@ tracking tokens, from URL query strings. This is done *before* the web request
 is made and results in both more private browsing as well as more aesthetically
 pleasing URLs.
 
-Install from the [Chrome Web Store][store] or [Firefox Add-ons][addons].
+You can install this extensions from the [Chrome Web Store][chrome-webstore],
+[Firefox Add-ons][firefox-addons], or [Edge Add-ons][edge-addons].
 
 ## Recognized Parameters
 
@@ -70,7 +71,8 @@ This extension requires these [permissions][]:
 [Urchin Logo](http://www.openclipart.org/detail/69997) by Jordan Irwin / Deluge.
 
 [utm]: https://en.wikipedia.org/wiki/UTM_parameters
-[store]: https://chrome.google.com/webstore/detail/kcpnkledgcbobhkgimpbmejgockkplob
-[addons]: https://addons.mozilla.org/addon/utm-tracking-token-stripper/
+[chrome-webstore]: https://chrome.google.com/webstore/detail/kcpnkledgcbobhkgimpbmejgockkplob
+[firefox-addons]: https://addons.mozilla.org/addon/utm-tracking-token-stripper/
+[edge-addons]: https://microsoftedge.microsoft.com/addons/detail/mbhhijmdgnjdckplligicmjadcpndioj
 [permissions]: https://developer.chrome.com/extensions/declare_permissions
 [webRequest]: https://developer.chrome.com/extensions/webRequest
