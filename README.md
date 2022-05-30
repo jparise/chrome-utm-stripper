@@ -67,6 +67,19 @@ This extension requires these [permissions][]:
  - `http://*/*?*`, to filter http URLs
  - `https://*/*?*`, to filter https URLs
 
+## Alternatives
+
+### uBlock Origin
+
+[uBlock Origin][ublock] includes a [`removeparam`][removeparam] feature that
+supports fine-grained matching and removal of query string parameters. The
+[AdGuard URL Tracking Protection][adguard] list provides well-maintained
+coverage for a large number of domains and query string tokens.
+
+[ublock]: https://github.com/gorhill/uBlock
+[removeparam]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#removeparam
+[adguard]: https://github.com/AdguardTeam/AdguardFilters#adguard-filters
+
 ## Logo
 
 [![Urchin Logo](icon-128.png "Urchin Logo")](http://www.openclipart.org/detail/69997)
