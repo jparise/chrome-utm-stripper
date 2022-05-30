@@ -38,6 +38,9 @@ The following query string parameters are stripped:
   - `mc_eid`
 - [Marketo](https://www.marketo.com/)
   - `mkt_tok`
+- Microsoft (MSN/Bing)
+  - `cvid`
+  - `oicd`
 - [Olytics](https://main.omeda.com/knowledge-base/olytics-product-outline/)
   - `oly_anon_id`
   - `oly_enc_id`
