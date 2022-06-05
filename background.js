@@ -11,7 +11,7 @@ const searchPattern = new RegExp('utm_|stm_|clid|_hs|icid|igshid|mc_|mkt_tok|ycl
  */
 const replacePattern = new RegExp(
     '([?&]' +
-    '(icid|mkt_tok|(g|fb)clid|igshid|_hs(enc|mi)|mc_[ce]id|(utm|stm)_(source|medium|term|campaign|content|cid|reader|referrer|name|social|social-type)|rb_clickid|yclid|_openstat|wickedid|otc|oly_(anon|enc)_id|soc_(src|trk)|cvid|oicd)' +
+    '(icid|mkt_tok|(g|fb)clid|igshid|_hs(enc|mi)|mc_[ce]id|(utm|stm)_(id|source|medium|term|campaign|content|cid|reader|referrer|name|social|social-type)|rb_clickid|yclid|_openstat|wickedid|otc|oly_(anon|enc)_id|soc_(src|trk)|cvid|oicd)' +
     '=[^&#]*)',
     'ig');
 
