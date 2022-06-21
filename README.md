@@ -80,6 +80,15 @@ coverage for a large number of domains and query string tokens.
 [removeparam]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#removeparam
 [adguard]: https://github.com/AdguardTeam/AdguardFilters#adguard-filters
 
+### Firefox
+
+Firefox 102 [includes](https://bugzilla.mozilla.org/show_bug.cgi?id=1763660)
+built-in removal of tracking query string parameters. In Privacy & Security
+settings, ensure Enhanced Tracking Protection is set to Strict (required to
+activate the query string feature). The default set of removed query params is
+limited, but you can configure you own via the
+`privacy.query_stripping.strip_list` pref as a space-separated list.
+
 ## Logo
 
 [![Urchin Logo](icon-128.png "Urchin Logo")](http://www.openclipart.org/detail/69997)
