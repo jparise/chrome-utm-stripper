@@ -27,7 +27,7 @@ The following query string parameters are stripped:
   - `utm_referrer`
   - `utm_name`
   - `utm_social`
-  - `utm_social`-type
+  - `utm_social-type`
 - [HubSpot](https://www.hubspot.com/)
   - `_hsenc`
   - `_hsmi`
