@@ -89,6 +89,10 @@ activate the query string feature). The default set of removed query params is
 limited, but you can configure your own via the
 `privacy.query_stripping.strip_list` pref as a space-separated list.
 
+### Other Extensions
+
+* https://github.com/newhouse/url-tracking-stripper
+
 ## Logo
 
 [![Urchin Logo](icon-128.png "Urchin Logo")](http://www.openclipart.org/detail/69997)
