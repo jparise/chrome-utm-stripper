@@ -33,6 +33,8 @@ The following query string parameters are stripped:
   - `_hsmi`
 - Instagram
   - `igshid`
+- [Klaviyo](https://www.klaviyo.com/)
+  - `utm_klaviyo_id`
 - Mailchimp
   - `mc_cid`
   - `mc_eid`
