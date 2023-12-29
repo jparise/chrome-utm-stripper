@@ -93,7 +93,8 @@ limited, but you can configure your own via the
 
 ### Other Extensions
 
-* https://github.com/newhouse/url-tracking-stripper
+* [ClearURLs](https://gitlab.com/ClearURLs/ClearUrls)
+* [URL Tracking Stripper](https://github.com/newhouse/url-tracking-stripper)
 
 ## Logo
 
