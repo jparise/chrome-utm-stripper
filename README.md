@@ -30,6 +30,8 @@ The following query string parameters are stripped:
   - `utm_name`
   - `utm_social`
   - `utm_social-type`
+- [ActiveCampaign](https://www.activecampaign.com/)
+  - `vgo_ee`
 - [HubSpot](https://www.hubspot.com/)
   - `_hsenc`
   - `_hsmi`
