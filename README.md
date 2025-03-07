@@ -6,8 +6,19 @@ tracking tokens, from URL query strings. This is done *before* the web request
 is made and results in both more private browsing as well as more aesthetically
 pleasing URLs.
 
-You can install this extensions from the [Chrome Web Store][chrome-webstore],
+You can install this extension from the [Chrome Web Store][chrome-webstore],
 [Firefox Add-ons][firefox-addons], or [Edge Add-ons][edge-addons].
+
+> [!IMPORTANT]
+> Google Chrome and the Chrome Web Store now label Manifest V2 extensions as
+> ["unsupported"](https://support.google.com/chrome_webstore/answer/2664769#unsupported_extensions).
+>
+> I'm not motivated to rewrite this extension from Manifest V2 to V3. The work
+> appears to be non-trivial for this kind of extension, and after that amount
+> of effort, it won't work any "better" than the current version.
+>
+> Please see the [list of alternatives](#alternatives) below if you need
+> another solution.
 
 ## Recognized Parameters
 
@@ -88,7 +99,7 @@ coverage for a large number of domains and query string tokens.
 
 ### Firefox
 
-Firefox 102 [includes](https://bugzilla.mozilla.org/show_bug.cgi?id=1763660)
+Firefox 102 [introduced](https://bugzilla.mozilla.org/show_bug.cgi?id=1763660)
 built-in removal of tracking query string parameters. In Privacy & Security
 settings, ensure Enhanced Tracking Protection is set to Strict (required to
 activate the query string feature). The default set of removed query params is
