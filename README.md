@@ -113,9 +113,9 @@ limited, but you can configure your own via the
 
 ## Logo
 
-[![Urchin Logo](icon-128.png "Urchin Logo")](http://www.openclipart.org/detail/69997)
+[![Urchin Logo](icon-128.png "Urchin Logo")](https://openclipart.org/detail/69997)
 
-[Urchin Logo](http://www.openclipart.org/detail/69997) by Jordan Irwin / Deluge.
+[Urchin Logo](https://openclipart.org/detail/69997) by Jordan Irwin / Deluge.
 
 [utm]: https://en.wikipedia.org/wiki/UTM_parameters
 [chrome-webstore]: https://chrome.google.com/webstore/detail/kcpnkledgcbobhkgimpbmejgockkplob
