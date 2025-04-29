@@ -106,6 +106,13 @@ activate the query string feature). The default set of removed query params is
 limited, but you can configure your own via the
 `privacy.query_stripping.strip_list` pref as a space-separated list.
 
+### StopTheMadness
+
+[StopTheMadness](https://underpassapp.com/StopTheMadness/) for Apple platforms
+(Safari on iOS and iPadOS; Safari, Firefox, Chrome, and Chromium browsers on
+macOS) lets you customize the list of query tracking parameters that are
+automatically removed from URLs, including domain-specific removal.
+
 ### Other Extensions
 
 * [ClearURLs](https://gitlab.com/ClearURLs/ClearUrls)
