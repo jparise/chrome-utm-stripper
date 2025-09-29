@@ -99,12 +99,12 @@ coverage for a large number of domains and query string tokens.
 
 ### Firefox
 
-Firefox 102 [introduced](https://bugzilla.mozilla.org/show_bug.cgi?id=1763660)
-built-in removal of tracking query string parameters. In Privacy & Security
-settings, ensure Enhanced Tracking Protection is set to Strict (required to
-activate the query string feature). The default set of removed query params is
-limited, but you can configure your own via the
-`privacy.query_stripping.strip_list` pref as a space-separated list.
+Firefox includes built-in support for [query parameter stripping][ff-stripping].
+The [default set of removed query params][ff-records] is limited, but you can
+configure your own via the `privacy.query_stripping.strip_list` pref.
+
+[ff-stripping]: https://firefox-source-docs.mozilla.org/toolkit/components/antitracking/anti-tracking/query-stripping/index.html
+[ff-records]: https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/query-stripping/records
 
 ### StopTheMadness
 
